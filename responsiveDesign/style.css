@@ -39,3 +39,73 @@ header {
       font-weight: 400;
       margin-bottom: 0;
   }
+
+  main {
+      background-color: #f6f9fc;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #cards{
+      background-color: white;
+      max-width: 1200px;
+      display:flex;
+      border-radius: 1em;
+      margin-top:2em
+  }
+
+  #cards img{
+      width: 66px;
+  }
+
+  #cards section{
+      padding: 4em;
+  }
+
+  #cards h3{
+      color: #24b47e;
+      text-transform: uppercase;
+      font-weight: 400;
+  }
+
+  #cards p{
+      line-height: 1.8em;
+      color:#525f7f
+  }
+
+  #cards a{
+      line-height: 1.8em;
+      color:#6772e5;
+      text-decoration: none;
+      font-weight: 400;
+  }
+
+  #cards section:nth-of-type(2){
+      border-left: 1px solid 
+  }
+
+  @media screen and (max-width: 700px){
+      header{
+          height: 50vh;
+          font-size: 0.8ems
+      }
+  }
+
+  @media screen and (max-width: 500px){
+      header{
+          height: 50vh;
+          font-size: 0.5ems
+      }
+  }
+
+  @media screen and (max-width: 900px){
+      #cards {
+          flex-direction: column;
+      }
+      #cards section:nth-of-type(2){
+        border-left: none;
+        border-top: 1px solid 
+    }
+  
+  }
